@@ -104,14 +104,14 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-3 m-t-20">
-                                <label>NID</label>
+                                <label>DNI</label>
                                 <input type="text" name="nid" class="form-control" value="" placeholder="(Máx. 10)"
-                                    minlength="10" required>
+                                    minlength="8" required>
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Número de Contacto</label>
-                                <input type="text" name="contact" class="form-control" value="" placeholder="1234567890"
-                                    minlength="10" maxlength="15" required>
+                                <input type="text" name="contact" class="form-control" value="" placeholder="1234567"
+                                    minlength="9" maxlength="15" required>
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Fecha de Nacimiento</label>
