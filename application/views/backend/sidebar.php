@@ -56,7 +56,7 @@
                 <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
                             class="fa fa-building-o"></i><span class="hide-menu">Organización</span></a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="<?php echo base_url(); ?>organization/Department">Departamento</a></li>
+                        <li><a href="<?php echo base_url(); ?>organization/Department">Departamentos</a></li>
                         <li><a href="<?php echo base_url(); ?>organization/Designation">Designación</a></li>
                     </ul>
                 </li>
@@ -103,13 +103,15 @@
                         <li><a href="<?php echo base_url(); ?>Payroll/Payslip_Report">Informe de boleta de pago</a></li>
                     </ul>
                 </li>
-                <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
-                            class="mdi mdi-cash"></i><span class="hide-menu">Préstamo</span></a>
-                    <ul aria-expanded="false" class="collapse">
-                        <li><a href="<?php echo base_url(); ?>Loan/View">Conceder préstamo</a></li>
-                        <li><a href="<?php echo base_url(); ?>Loan/installment">Cuota del préstamo</a></li>
-                    </ul>
-                </li>
+
+                <!-- <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="mdi mdi-cash"></i><span class="hide-menu">Prestamos</span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="<?php echo base_url(); ?>Loan/View">Conceder préstamo</a></li>
+                            <li><a href="<?php echo base_url(); ?>Loan/installment">Cuota del préstamo</a></li>
+                        </ul>
+                    </li>
+                    -->
 
                 <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
                             class="mdi mdi-grid"></i><span class="hide-menu">Activos</span></a>
@@ -121,7 +123,7 @@
                 </li>
 
                 <li> <a href="<?php echo base_url() ?>notice/All_notice"><i class="mdi mdi-clipboard"></i><span
-                            class="hide-menu">Notificaciones</span></a></li>
+                            class="hide-menu">Avisos</span></a></li>
                 <li> <a href="<?php echo base_url(); ?>settings/Settings"><i class="mdi mdi-settings"></i><span
                             class="hide-menu">Configuración</span></a></li>
                 <?php } ?>

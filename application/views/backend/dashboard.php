@@ -20,7 +20,7 @@
         <!-- Row -->
         <div class="row">
             <!-- Columna -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex flex-row">
@@ -41,7 +41,7 @@
             </div>
             <!-- Columna -->
             <!-- Columna -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex flex-row">
@@ -52,7 +52,7 @@
                                     $this->db->where('leave_status', 'Approve');
                                     $this->db->from("emp_leave");
                                     echo $this->db->count_all_results();
-                                    ?> Permisos
+                                    ?> Permisos de Ausencia
                                 </h3>
                                 <a href="<?php echo base_url(); ?>leave/Application" class="text-muted m-b-0">Ver
                                     Detalles</a>
@@ -63,7 +63,7 @@
             </div>
             <!-- Columna -->
             <!-- Columna -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex flex-row">
@@ -85,6 +85,7 @@
             </div>
             <!-- Columna -->
             <!-- Columna -->
+            <!--
             <div class="col-lg-3 col-md-6">
                 <div class="card">
                     <div class="card-body">
@@ -104,6 +105,7 @@
                     </div>
                 </div>
             </div>
+            -->
             <!-- Columna -->
         </div>
 
@@ -112,7 +114,7 @@
 
         <div class="row ">
             <!-- Column -->
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-3 col-xlg-4">
                 <div class="card card-inverse card-info">
                     <div class="box bg-primary text-center">
                         <h1 class="font-light text-white">
@@ -122,12 +124,12 @@
                             echo $this->db->count_all_results();
                             ?>
                         </h1>
-                        <h6 class="text-white">Former Employees</h6>
+                        <h6 class="text-white">Empleados Inactivos</h6>
                     </div>
                 </div>
             </div>
             <!-- Column -->
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-3 col-xlg-4">
                 <div class="card card-info card-inverse">
                     <div class="box text-center">
                         <h1 class="font-light text-white">
@@ -137,12 +139,12 @@
                             echo $this->db->count_all_results();
                             ?>
                         </h1>
-                        <h6 class="text-white">Pending Leave Application</h6>
+                        <h6 class="text-white">Solicitud de vacaciones pendiente</h6>
                     </div>
                 </div>
             </div>
             <!-- Column -->
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-3 col-xlg-4">
                 <div class="card card-inverse card-danger">
                     <div class="box text-center">
                         <h1 class="font-light text-white">
@@ -152,11 +154,12 @@
                             echo $this->db->count_all_results();
                             ?>
                         </h1>
-                        <h6 class="text-white">Upcoming Project</h6>
+                        <h6 class="text-white">Próximos proyectos</h6>
                     </div>
                 </div>
             </div>
             <!-- Column -->
+            <!--
             <div class="col-md-6 col-lg-3 col-xlg-3">
                 <div class="card card-inverse card-success">
                     <div class="box text-center">
@@ -171,6 +174,7 @@
                     </div>
                 </div>
             </div>
+            -->
             <!-- Column -->
         </div>
         <!-- ============================================================== -->

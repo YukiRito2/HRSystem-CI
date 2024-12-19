@@ -60,16 +60,16 @@
                                 <select name="dept" value="" class="form-control custom-select" required>
                                     <option>Seleccione Departamento</option>
                                     <?Php foreach ($depvalue as $value): ?>
-                                    <option value="<?php echo $value->id ?>"><?php echo $value->dep_name ?></option>
+                                        <option value="<?php echo $value->id ?>"><?php echo $value->dep_name ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
                             <div class="form-group col-md-3 m-t-20">
-                                <label>Designación</label>
+                                <label>Designar Area</label>
                                 <select name="deg" class="form-control custom-select" required>
                                     <option>Seleccione Designación</option>
                                     <?Php foreach ($degvalue as $value): ?>
-                                    <option value="<?php echo $value->id ?>"><?php echo $value->des_name ?></option>
+                                        <option value="<?php echo $value->id ?>"><?php echo $value->des_name ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -77,7 +77,7 @@
                                 <label>Rol</label>
                                 <select name="role" class="form-control custom-select" required>
                                     <option>Seleccione Rol</option>
-                                    <option value="ADMIN">ADMIN</option>
+                                    <option value="ADMIN">Admin</option>
                                     <option value="EMPLOYEE">Empleado</option>
                                     <option value="SUPER ADMIN">Super Admin</option>
                                 </select>
@@ -104,19 +104,19 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-3 m-t-20">
-                                <label>NID</label>
-                                <input type="text" name="nid" class="form-control" value="" placeholder="(Máx. 10)"
-                                    minlength="10" required>
+                                <label>DNI</label>
+                                <input type="text" name="nid" class="form-control" value="" minlength="7"
+                                    placeholder="123456789">
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Número de Contacto</label>
-                                <input type="text" name="contact" class="form-control" value="" placeholder="1234567890"
-                                    minlength="10" maxlength="15" required>
+                                <input type="text" name="contact" class="form-control" value="" placeholder="123456789"
+                                    minlength="2" maxlength="20">
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Fecha de Nacimiento</label>
                                 <input type="date" name="dob" id="example-email2" name="example-email"
-                                    class="form-control" placeholder="" required>
+                                    class="form-control" placeholder="">
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Fecha de Ingreso</label>
@@ -136,7 +136,7 @@
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Correo Electrónico</label>
                                 <input type="email" id="example-email2" name="email" class="form-control"
-                                    placeholder="email@mail.com" minlength="7" required>
+                                    placeholder="email@mail.com" minlength="7">
                             </div>
                             <div class="form-group col-md-3 m-t-20">
                                 <label>Imagen</label>

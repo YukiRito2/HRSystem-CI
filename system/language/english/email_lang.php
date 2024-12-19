@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -35,10 +36,10 @@
  * @since	Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['email_must_be_array'] = 'The email validation method must be passed an array.';
-$lang['email_invalid_address'] = 'Invalid email address: %s';
+$lang['email_invalid_address'] = 'Por favor ingrese un email valido: %s';
 $lang['email_attachment_missing'] = 'Unable to locate the following email attachment: %s';
 $lang['email_attachment_unreadable'] = 'Unable to open this attachment: %s';
 $lang['email_no_from'] = 'Cannot send mail with no "From" header.';

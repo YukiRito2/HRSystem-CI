@@ -44,17 +44,17 @@
                                 </thead>
                                 <tbody>
                                     <?php foreach ($notice as $value): ?>
-                                    <tr>
-                                        <td><?php echo $value->id; ?></td>
-                                        <td><?php echo $value->title; ?></td>
-                                        <td>
-                                            <a href="<?php echo base_url(); ?>assets/images/notice/<?php echo $value->file_url; ?>"
-                                                target="_blank">
-                                                <?php echo $value->file_url; ?>
-                                            </a>
-                                        </td>
-                                        <td><?php echo $value->date; ?></td>
-                                    </tr>
+                                        <tr>
+                                            <td><?php echo $value->id; ?></td>
+                                            <td><?php echo $value->title; ?></td>
+                                            <td>
+                                                <a href="<?php echo base_url(); ?>assets/images/notice/<?php echo $value->file_url; ?>"
+                                                    target="_blank">
+                                                    <?php echo $value->file_url; ?>
+                                                </a>
+                                            </td>
+                                            <td><?php echo $value->date; ?></td>
+                                        </tr>
                                     <?php endforeach; ?>
                                 </tbody>
                             </table>

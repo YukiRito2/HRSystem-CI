@@ -89,8 +89,9 @@
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                         </div>
                         <div class="modal-body">
-                            <h4>Importar Asistencia<span><img src="<?php echo base_url(); ?>assets/images/finger.jpg"
-                                        height="100px" width="100px"></span>Subir solo archivos CSV</h4>
+                            <h4>Importar Asistencia<span><img
+                                        src="<?php echo base_url(); ?>assets/images/RecursosHumanos.gif" height="100px"
+                                        width="100px"></span>Subir solo archivos CSV</h4>
 
                             <input type="file" name="csv_file" id="csv_file" accept=".csv"><br><br>
 
